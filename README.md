@@ -2,12 +2,14 @@
 
 Hướng dẫn:
 
-1.
+
+
 Mở MySQL Workbench, kết nối MySQL rồi chạy:
 CREATE DATABASE IF NOT EXISTS servletjpa
 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
-2. Cấu hình kết nối database
+1. Cấu hình kết nối database
+
 
 Trong thư mục config của project:
 - Copy db.properties.example.
@@ -20,7 +22,7 @@ db.password=MAT_KHAU_MYSQL_CUA_BAN
 db.schema=update
 
 
-3. Cấu hình email gửi OTP thật
+2. Cấu hình email gửi OTP thật
 
 Copy config/mail.properties.example thành config/mail.properties, rồi sửa:
 mail.mode=smtp
@@ -34,7 +36,8 @@ mail.from=EMAIL_GUI_CUA_BAN@gmail.com
 Với Gmail, bật Xác minh 2 bước và tạo Mật khẩu ứng dụng theo hướng dẫn Google. Dùng mật khẩu ứng dụng này, không dùng mật khẩu đăng nhập Gmail thông thường. support.google.com
 
 
-4. Khởi động
+3. Khởi động
+
 Trong thư mục có pom.xml, chạy:
 .\CHAY_MYSQL_SMTP.bat
 
