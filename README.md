@@ -19,7 +19,6 @@ db.user=root
 db.password=MAT_KHAU_MYSQL_CUA_BAN
 db.schema=update
 
-Thay mật khẩu bằng mật khẩu bạn dùng khi kết nối Workbench.
 
 3. Cấu hình email gửi OTP thật
 
@@ -34,9 +33,6 @@ mail.from=EMAIL_GUI_CUA_BAN@gmail.com
 
 Với Gmail, bật Xác minh 2 bước và tạo Mật khẩu ứng dụng theo hướng dẫn Google. Dùng mật khẩu ứng dụng này, không dùng mật khẩu đăng nhập Gmail thông thường. support.google.com
 
-mail.username là email gửi thư. Email nhập trên form đăng ký là email nhận OTP; nên dùng một email khác mà bạn kiểm tra được.
-
-Không đưa hai file cấu hình chứa mật khẩu thật lên GitHub.
 
 4. Khởi động
 Trong thư mục có pom.xml, chạy:
